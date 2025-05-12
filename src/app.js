@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const pdfRoutes = require('./routes/pdfRoutes');
 const { connectWithRetry } = require('./utils/dbConnection');
-const { diagnoseMongoDBConnection } = require('./utils/mongodbDiagnostics');
+// const { diagnoseMongoDBConnection } = require('./utils/mongodbDiagnostics');
 require('dotenv').config();
 
 const app = express();
